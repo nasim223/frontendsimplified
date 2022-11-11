@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+
 }
 
 
@@ -13,4 +15,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    line-height: 20px;
+}
+
+.nav-link li a{
+    margin: 0px 10px;
 }
