@@ -3,7 +3,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -26,4 +26,14 @@ nav {
 
 .nav-link li a{
     margin: 0px 10px;
+    font-size: large;
+    text-decoration: none;
+}
+
+#myself{
+    background-color: aquamarine;
+}
+
+.mylogo{
+    font-size: large;
 }
