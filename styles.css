@@ -28,8 +28,8 @@ nav {
     margin: 0px 10px;
     text-decoration: none;
     font-size: 35px;
-    color: rgb(88, 124, 165);
-    background-color: violet;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 93, 219);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -55,7 +55,7 @@ nav {
 
 .mylogo{
     font-size: 35px;
-    color: rgb(88, 124, 165);
+    color: rgb(25, 93, 219);
 }
 
 .mypic img{
@@ -81,3 +81,30 @@ nav {
     top: 5vh;
     right: 17vh;
 }
+
+.svgs{
+    position: relative;
+    top: 30vh;
+    left:72vh;
+}
+
+.wave{
+    display: inline-block;
+    animation: animate-wave 500ms infinite cubic-bezier(0.42, 0, 0.18, 0.95);
+}
+
+@keyframes animate-wave{
+
+0% {
+    transform: rotate(0);
+}
+
+50% {
+    transform: rotate(30deg);
+}
+100% {
+    transform: rotate(0);
+}
+
+}
+
