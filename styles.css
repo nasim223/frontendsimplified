@@ -26,14 +26,58 @@ nav {
 
 .nav-link li a{
     margin: 0px 10px;
-    font-size: large;
     text-decoration: none;
+    font-size: 35px;
+    color: rgb(88, 124, 165);
+    background-color: violet;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10%;
 }
 
+.nav-link li a:hover{
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 93, 219);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10%;
+    transition: 300ms;
+}
 #myself{
-    background-color: aquamarine;
 }
 
 .mylogo{
-    font-size: large;
+    font-size: 35px;
+    color: rgb(88, 124, 165);
+}
+
+.mypic img{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+}
+
+.mypic {
+    display: flex;
+    position: relative;
+    top: 20vh;
+    left: 72vh;
+}
+
+.mytitle{
+    font-size: 35px;
+}
+
+.mypara{
+    font-size: 35px;
+    position: relative;
+    top: 5vh;
+    right: 17vh;
 }
